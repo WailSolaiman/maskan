@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Error from 'next/error'
 import { Flex, Box, Text, Button } from '@chakra-ui/react'
 
 import Property from '../components/Property'
@@ -38,7 +37,7 @@ const Home = ({ propertiesForSale, propertiesForRent, statusCode }) => {
           <Text color="gray.700" fontSize="xl" paddingTop="3" paddingBottom="3" textAlign="center">
             Oops! Something Went Wrong!
             <br />
-            We're working on getting it fixed as soon as we can.
+            We are working on getting it fixed as soon as we can.
           </Text>
         </Flex>
       </Box>
