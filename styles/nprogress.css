@@ -68,3 +68,7 @@
     0%   { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+.css-r6z5ec {
+    z-index: 2 !important;
+}
